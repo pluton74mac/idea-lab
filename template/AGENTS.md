@@ -7,12 +7,15 @@ This is an Idea Lab project. The Idea Lab is a methodology for accelerated idea 
 - **`forge`** — collaborative thinking methodology for shaping ideas, plans, and decisions
 - **`idea-lab-workflow`** — conventions for running an Idea Lab project (this project follows these)
 - **`llm-wiki`** — research knowledge base (dependency — install separately if not available)
+- **`spike`** — disposable code experiments to validate feasibility (native Hermes skill)
+- **`plan`** — structured implementation plans for production builds (native Hermes skill)
 
 ## Conventions
 
 - Use `forge` when shaping the idea, resolving open questions, or stress-testing assumptions
 - Use `llm-wiki` for research — recurrent runs that stack on prior findings
-- LOG.md is agent-written — append after every session, research run, or decision
+- Use `spike` when a question needs code to answer ("does this even work?") — spikes live in `spikes/`, verdicts go to LOG.md, spike code is disposable
+- LOG.md is agent-written — append after every session, research run, spike, or decision
 - Files appear progressively: IDEA.md → LOG.md → llm_wiki/ → DECISIONS.md → AGENTS.md updates → PRD.md → code
 - This file (AGENTS.md) grows as technical decisions solidify
 
@@ -25,4 +28,5 @@ This is an Idea Lab project. The Idea Lab is a methodology for accelerated idea 
 | LOG.md | Chronicle — every session, research run, decision | Agent only |
 | DECISIONS.md | ADRs — date + decision + rationale | Agent |
 | llm_wiki/ | Research KB (llm-wiki skill format) | llm-wiki skill |
+| spikes/ | Disposable feasibility experiments (spike skill) | spike skill |
 | PRD.md | Product requirements (when scoped) | Agent |
