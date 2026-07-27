@@ -1,6 +1,11 @@
 # <Idea Name> — Agent Context
 
-This is an Idea Lab project. The Idea Lab is a methodology for accelerated idea development with AI agentic workflows.
+Living project memory. Auto-loads every session — the first thing the agent reads.
+Grows by adding sections, not rewriting the Idea Lab baseline below.
+Add context as it solidifies: stack, architecture, conventions, pitfalls, operations.
+
+This is an Idea Lab project. The Idea Lab is a methodology for accelerated idea
+development with AI agentic workflows.
 
 ## Skills
 
@@ -17,7 +22,6 @@ This is an Idea Lab project. The Idea Lab is a methodology for accelerated idea 
 - Use `spike` when a question needs code to answer ("does this even work?") — spikes live in `spikes/`, verdicts go to LOG.md, spike code is disposable
 - LOG.md is agent-written — append after every session, research run, spike, or decision
 - Files appear progressively: IDEA.md → LOG.md → llm_wiki/ → DECISIONS.md → AGENTS.md updates → PRD.md → code
-- This file (AGENTS.md) grows as technical decisions solidify
 
 ## File Purposes
 
@@ -30,3 +34,7 @@ This is an Idea Lab project. The Idea Lab is a methodology for accelerated idea 
 | llm_wiki/ | Research KB (llm-wiki skill format) | llm-wiki skill |
 | spikes/ | Disposable feasibility experiments (spike skill) | spike skill |
 | PRD.md | Product requirements (when scoped) | Agent |
+
+---
+
+<!-- Project-specific context below. Add sections as the idea matures. -->
